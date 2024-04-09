@@ -1,0 +1,220 @@
+* {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+body {
+    background-color: rgb(175, 89, 19);
+}
+.Glavdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 1000px;
+    font-size: 16pt;
+    border: 2px rgb(10, 5, 20) solid;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 50px;
+    backdrop-filter: blur(5px);
+    margin: 0 auto;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    z-index: 100;
+    left: 0;
+    background-image: url(hapka.jpg);
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.img1 {
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.opisanie {
+    border: 1px solid red;
+    color: red;
+    width: 400px;
+    height: 500px;
+    margin-top: 500px;
+}
+
+.preng {
+    background-image: url(8gVdHK0T7bfczOHaIgYDSNzS4WFGACpTiA62J7XW.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.aluansandorda {
+    margin-top: 70px;
+    display: flex;
+    padding: 0px 200px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.alor {
+    margin-top: 20px;
+}
+
+.card-img {
+    height: 200px;
+}
+
+.card1 {
+    width: 400px;
+}
+
+.img11 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-paragraph {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.card-h1 {
+    text-align: center;
+    text-shadow: 3px 3px 4px blue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-h2 {
+    text-align: center;
+    text-shadow: 3px 3px 4px red;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-paragraph {
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+    text-shadow: 1px 1px 2px yellow;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.divphon1 {
+    position: relative;
+}
+.phon1 {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.polosa1 {
+    border: 2px solid rgb(175, 89, 19);
+}
+
+.geroi {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.polosa {
+    margin-left: 500px;
+}
+
+.phonger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.ger {
+    width: 330px;
+    height: 425px;
+}
+
+.text-h2 {
+    text-align: center;
+    text-shadow: 2px 2px 3px darkmagenta;
+}
+
+.text {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-shadow: 1px 1px 2px aqua;
+}
+
+.podval {
+    /* border: 1px solid rgb(175, 89, 19); */
+    background-color: rgb(175, 89, 19);
+}
+
+.socset {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 690px;
+    width: 20px;
+    height: 20px;
+}
+
+.bor1 {
+    border: 1px solid black;
+    height: 50px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.socset1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.text-podval {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.poder {
+    width: 50px;
+    height: 50px;
+    margin-left: 90%;
+}
+
+.zvon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+    background: beige;
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.img-zvon {
+    width: 60px;
+    height: 60px;
+}
